@@ -1,0 +1,36 @@
+
+.container{
+    height: 500px;
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+.item{
+    background-color: rgb(17, 230, 112);
+    padding: 0 5px;
+    text-align: center;
+    color: black;
+    flex: 1;
+    margin: 5px;
+}
+
+.column{
+    flex-direction: column;
+}
+.center{
+    align-content: center;
+}
+.Flex-start{
+    align-content: flex-start;
+}
+.Flex-end{
+    align-content: flex-end;
+}
+.Space-around{
+    align-content: space-around;
+}
+.Space-between {
+    align-content: space-between;
+}

@@ -1,0 +1,45 @@
+
+
+.container{
+    border: 3px solid black;
+    max-width: 350px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+
+}
+
+.item{
+    background-color: rgb(65, 26, 26);
+    color: white;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+    font-size: 25px;
+    
+
+}
+
+.center{
+    align-self: center;
+}
+
+.start{
+    align-self: flex-start;
+}
+.end{
+    align-self: flex-end;
+}
+.stretch{
+    align-self: stretch;
+}
+.baseline{
+    align-self: baseline;
+}
+.auto{
+    align-self: auto;
+}
+
+.direction{
+    flex-direction: column;
+}

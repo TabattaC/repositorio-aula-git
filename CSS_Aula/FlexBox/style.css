@@ -1,0 +1,70 @@
+
+
+.container{
+    margin-left: 25px;
+
+}
+.flex{
+    max-width: 300px;
+    padding: 10px;
+    border: 2px solid rgb(0, 57, 245);
+    margin-top: 50px;
+    margin-bottom: 15px;
+    
+}
+
+.flex2{
+    max-width: 300px;
+    padding: 10px;
+    border: 2px solid rgb(0, 57, 245);
+    display: flex;
+    margin-top: 2px;
+
+}
+
+.item{
+    background-color: rgb(10, 240, 106);
+    margin: 5px;
+}
+
+.container-flex{
+    display: flex;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+    list-style: none;
+
+}
+.flex-item{
+    background-color: rgb(162, 0, 255);
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size:20px ;
+    color: black;
+    text-align: center;
+    margin: 5px;
+
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+}
+.row-reverse ul {
+    background-color: red;
+}
+
+.column{
+    flex-direction: column;
+    float: left;
+} 
+.column ul{
+    background-color: orange;
+}
+.column-reverse{
+    flex-direction: column-reverse;
+    float: right;
+} 
+.column-reverse ul{
+    background-color: green;
+}

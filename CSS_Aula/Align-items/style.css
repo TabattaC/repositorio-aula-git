@@ -1,0 +1,65 @@
+
+.container{
+    max-width: 400px;
+    border: 3px solid black;
+    display: flex;
+}
+
+.item{
+    background-color: rgba(252, 164, 0, 0.836);
+    margin: 5px;
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    flex: 1;
+}
+.flex{
+    flex: 1;
+}
+
+.center{
+    align-items: center;
+}
+
+.center-column{
+    align-items: center;
+    flex-direction: column;
+}
+
+.stretch{
+    align-items: stretch;
+}
+.stretch-column{
+    align-items: stretch;
+    flex-direction: column;
+}
+.flex-start{
+    align-items: flex-start;
+}
+.start-column{
+    align-items: flex-start;
+    flex-direction: column;
+}
+.flex-end{
+    align-items: flex-end;
+}
+.end-column{
+    align-items: flex-end;
+    flex-direction: column;
+}
+.baseline{
+    align-items: baseline;
+}
+.baseline-column{
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.central{
+    height: 300px;
+}
+
+.central.item{
+    flex: 0 ;
+    padding: 20px;
+}
